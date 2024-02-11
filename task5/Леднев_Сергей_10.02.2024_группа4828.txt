@@ -1,0 +1,12 @@
+ 113  sudo apt update
+  114  wget -O- https://repo.mysql.com/RPM-GPG-KEY-mysql-2022 | sudo apt-key add
+  115  echo "deb http://repo.mysql.com/apt/ubuntu/ $(lsb_release -sc) mysql-8.0" | sudo tee /etc/apt/sources.list.d/mysql.list
+  116  wget http://archive.ubuntu.com/ubuntu/pool/universe/m/mc/mc_4.8.30-1_amd64.deb
+  117  sudo dpkg -i mc_4.8.30-1_amd64.deb
+  118  sudo dpkg -r mc_4.8.30-1_amd64.deb
+  119  history
+
+после команды sudo apt update
+почему то не сохранились команды по созданию файлов первых задач,
+поэтому только последние показываю, но я выложил скриншоты по первым задачам
+надеюсь не повлияет на оценку.
